@@ -1,15 +1,15 @@
 while True:
-    age = int(input("Enter your age:"))
+    age = int(input("-Enter your age:"))
     if age>0:
         print("\033[1;32m Success!  \033[0m")
         break
     else:
         print("\033[1;31m false, age can't be negative or zero  \033[0m")
 
-first_name = input("enter your first name:")
-last_name =  input("enter your last name:")
-is_a_new_pacient = "New pacient"
-info = "To calculate The amount of times you slept in each month in total, please do the following. Don't use negatives"
+first_name = input("-enter your first name:")
+last_name =  input("-enter your last name:")
+is_a_new_pacient = "New patient"
+info = " --> To calculate The amount of times you slept in each month in total, please do the following. Don't use negative numbers"
 
 import time
 print(age)
@@ -22,14 +22,14 @@ print(is_a_new_pacient)
 time.sleep(0.3)
 print(info)
 
-num1=int(input("enter the amount of apples you ate in your first month:"))
-num2=int(input("amount of apples you ate in the second month:"))
+num1=int(input("-enter the amount of apples you ate in your first month:"))
+num2=int(input("-amount of apples you ate in the second month:"))
 total=num1+num2
 print(total)
 if num1>0:
     print("\033[1;32m Success, please wait for the nurse to call your name! 😊  \n")
 else:
-    print("\033[1;31m Something went wrong, please try again  \n")
+    print("\033[1;31m please try again. make sure you're not putting any negative numbers!  \n")
 
 
 
