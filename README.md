@@ -1,3 +1,3 @@
-so this code is my first ever Python project  so its pretty basic 
+so this code is my first ever Mini Python project  so its pretty basic 
 
-the code is kind of like if you were going to an appointment and doing an check in with how many apples you eat
+the code is kind of like if you were going to an appointment and doing a check in with how many apples you eat
