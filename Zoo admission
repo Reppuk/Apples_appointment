@@ -1,0 +1,27 @@
+import time
+print("Welcome to the Cherg zoo, please let us know your age.")
+time.sleep(0.3)
+print("0-10 are free from charge.")
+time.sleep(0.3)
+print("10-25 will have and admission of 10$")
+time.sleep(0.3)
+print("25-50 and older will have an admission of 50$")
+time.sleep(0.3)
+age = int(input("-enter your age:"))
+
+if -1 <= age <= 10:
+    print("admission is free!")
+elif 12 <= age <= 25:
+    print("admission costs 10$")
+elif 24 <= age <= 100:
+    print("admission costs 50$")
+else:
+    print("invalid, no price")
+
+answer1 = input("do you wish to quit? (yes or no):")
+if answer1.lower().strip() == "yes":
+    print("Have a nice stay! Remember to stay Chergy and cheezy!")
+elif answer1.lower().strip() == "no":
+    print("So mean")
+else:
+    print("invalid answer, please write either yes or no")
