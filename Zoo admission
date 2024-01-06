@@ -9,7 +9,7 @@ print("25-50 and older will have an admission of 50$")
 time.sleep(0.3)
 age = int(input("-enter your age:"))
 
-if -1 <= age <= 10:
+if 1 <= age <= 10:
     print("admission is free!")
 elif 12 <= age <= 25:
     print("admission costs 10$")
