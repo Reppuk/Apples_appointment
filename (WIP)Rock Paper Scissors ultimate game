@@ -1,0 +1,51 @@
+# project is still on WIP and is still halfway through. However, the loops aren't necessary and are a bit broken. I might plan to finish this when I have more free time? But I am currently focusing on Java so not sure
+# other things to be added to the game:  adding the generators for the rock, paper, and scissors to work. Might add some storyline to this too. Bugs will need to be fixed, possibly add multiple endings?? depends on how complex it gets.
+
+while True:
+    import time
+    name = input("Hello, Welcome to the game of Rock, Paper, or Scissors. Please Let me know your name!: ").strip().lower()
+    time.sleep(0.3)
+    birth_year = input("Next of all, please enter your birth year. We must see if you're illegible enough to play: ")
+    age = 2024 - int(birth_year)
+    time.sleep(0.3)
+    print("your age this year is " + str(age))
+    time.sleep(0.3)
+    if  10 <= age <= 80:
+     print("Great! lets get this round started, Welcome to the amazing game of Rock paper Scissors Ultimate!!")
+
+    elif 81 <= age <= 100:
+     print("You're a bit old for this game, but hey I ain't complaining! Welcome to the amazing game of Rock Paper Scissors Ultimate!! ")
+
+    elif 101 <= age <= 10000:
+     print("Hmmm... well that's very impressive, I didn't know Humans can live for that long. Perhaps you're a zombie or god? Oh well, Welcome to the amazing game of Rock Paper Scissors Ultimate!! ")
+
+    elif 0 <= age <= 9:
+        print("Sorry, you are too young to play! maybe another year! ")
+        restart = input("Would you like to restart (yes/no)?: ").strip().lower()
+        if restart == "yes":
+         print("Gotcha, returning to the top :p")
+         continue
+        else:
+         print("Understandable! Goodbye young lad!!")
+        break
+
+    else:
+        print(" Oops! Something went wrong. Make sure you're only typing numbers in.")
+        restart = input("Would you like to restart (yes/no)?: ").strip().lower()
+        if restart == "yes":
+            print("gotcha, returning to the top :p")
+            continue
+        else:
+            print("Understandable! Goodbye young lad!!")
+            break
+
+print("It was one peaceful sunny day in the world of computers- Or shall I say one bright blinding screen?")
+print("Who knew that Rock, Papers, and scissors could potentially cause armed conflict in the computer society?")
+print(f"Anyways, enough of small talk. Hello age {age},{name}, we need your help for defeating computers...")
+print("Allow me to introduce the rules of the ultimate game of: Rock, Paper and Scissors!")
+print("So, in other words it's nothing different from regular Rock, Paper, Scissors game. The only thing is, you'll be playing against a computer in this python client.")
+print("Incase if you didn't know: Rock + Paper = paper wins, rock looses")
+print("Paper + scissors = Scissor wins, paper looses")
+print("Rock + Scissors = rock wins, scissors loose")
+print("And of course, finally If you and the computer get same results, then it's a tie. You'll have to go again. ex: rock + rock = tie")
+print("Enough of the boring stuff, lets get into it! I assume that you'll not not a repeat of the rules. If you're really that desprate then search it up or restart the game!")
