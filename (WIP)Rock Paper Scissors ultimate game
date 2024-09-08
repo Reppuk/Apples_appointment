@@ -1,5 +1,10 @@
-# project is still on WIP and is still halfway through. However, the loops aren't necessary and are a bit broken. I might plan to finish this when I have more free time? But I am currently focusing on Java so not sure
-# other things to be added to the game:  adding the generators for the rock, paper, and scissors to work. Might add some storyline to this too. Bugs will need to be fixed, possibly add multiple endings?? depends on how complex it gets.
+# project is still on WIP and is still halfway through. I might plan to finish this when I have more free time? I'm currently focusing on Java rn so not sure
+
+# other things to be added to the game, but may change:  
+# Adding the generators (lists) for the rock, paper, and scissors to work -> Maybe extra options too (that's why its ultimate)
+# Might add some storyline to this too. 
+# Bugs will need to be fixed -> have some unnecessary loops in there + broken code
+# add multiple endings?? depends on how complex it gets.
 
 while True:
     import time
